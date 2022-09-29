@@ -15,7 +15,6 @@
     <body>
     <center><h1>FACTORIAL DE UN NUMERO</h1></center>
 
-
         <%
             int n = 20;
             long f = 1;
