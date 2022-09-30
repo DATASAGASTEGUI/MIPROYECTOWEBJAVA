@@ -29,7 +29,16 @@
             for(int i=0; i<jobi.length; i++) {
                 out.print("5. Caja de seleccion multiple: " + jobi[i] + "<br>");
             }
-
+            
+            String codigoPais = request.getParameter("cboCodigoPais");
+             out.print("6. Lista desplegable. Selección Simple: " + codigoPais + "<br>");
+            /*
+            String[] codigoPais = request.getParameterValues("cboCodigoPais");
+            for(int i=0; i<codigoPais.length; i++) {
+                out.print("6. Lista desplegable. Selección Simple: " + codigoPais[i] + "<br>");
+            }
+*/
+            
         %>
 </body>
 </html>

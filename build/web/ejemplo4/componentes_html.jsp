@@ -29,7 +29,15 @@
                 <input type="checkbox" name="chkJobi" value="Lectura"/> Lectura 
                 <input type="checkbox" name="chkJobi" value="Paseo"/> Paseo
                 <input type="checkbox" name="chkJobi" value="Película"/> Película </p>
-
+            
+            <p>6. Lista desplegable. Selección Simple:
+                <select name="cboCodigoPais" size="1">
+                    <option value="CL">Chile</option>  
+                    <option value="PE">Perú</option> 
+                    <option value="ES">España</option> 
+                    <option value="MX">Mexico</option> 
+                    <option value="UK">Inglaterra</option> 
+                 </select> </p>
 
             <p>Enviar: <input type="submit" name='subEnviar' value='Enviar' />
         </form>
