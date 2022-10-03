@@ -3,19 +3,12 @@ package misrc;
 public class Main {
 
     public static void main(String[] args) {
-       /*
-        int x = 8;
-       long y = x * 8;
-       
-       
-       long x1 = 8;
-       int y1 =  (int) (x1 * 8);
-       */
-       
-       //byte, short, int, long
-       
-       byte x = -128;
-       System.out.print(x);
+       try {
+            double x = 7/0;
+            System.out.print(x);
+       }catch(ArithmeticException e) {
+           System.out.println("Error: " + e);
+       }
     }
 
 }
