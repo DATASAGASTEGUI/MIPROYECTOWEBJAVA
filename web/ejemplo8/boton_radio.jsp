@@ -38,7 +38,6 @@
                 salidaf = salida;
 
             }
-
             if (request.getParameter("cmdNuevo") != null) {
                 salidaf = "";
                 entradaf = "";
