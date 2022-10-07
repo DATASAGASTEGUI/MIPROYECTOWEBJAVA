@@ -26,19 +26,22 @@
             out.print("4. Botón Radio: " + mascota + "<br>");
 
             String[] jobi = request.getParameterValues("chkJobi");
-            for(int i=0; i<jobi.length; i++) {
-                out.print("5. Caja de seleccion multiple: " + jobi[i] + "<br>");
+            if (jobi != null) {
+                for (int i = 0; i < jobi.length; i++) {
+                    out.print("5. Caja de seleccion multiple: " + jobi[i] + "<br>");
+                }
             }
-            
+
             String codigoPais = request.getParameter("cboCodigoPais");
-             out.print("6. Lista desplegable. Selección Simple: " + codigoPais + "<br>");
+            out.print("6. Lista desplegable. Selección Simple: " + codigoPais + "<br>");
             /*
             String[] codigoPais = request.getParameterValues("cboCodigoPais");
             for(int i=0; i<codigoPais.length; i++) {
                 out.print("6. Lista desplegable. Selección Simple: " + codigoPais[i] + "<br>");
             }
-*/
-            
+             */
+            String color = request.getParameter("sliderColor");
+            out.print("7. Slider. Selección Simple: " + color + "<br>");
         %>
 </body>
 </html>

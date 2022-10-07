@@ -29,7 +29,7 @@
                 <input type="checkbox" name="chkJobi" value="Lectura"/> Lectura 
                 <input type="checkbox" name="chkJobi" value="Paseo"/> Paseo
                 <input type="checkbox" name="chkJobi" value="Película"/> Película </p>
-            
+
             <p>6. Lista desplegable. Selección Simple: (ComboBox)
                 <select name="cboCodigoPais" size="1">
                     <option value="CL">Chile</option>  
@@ -37,7 +37,15 @@
                     <option value="ES">España</option> 
                     <option value="MX">Mexico</option> 
                     <option value="UK">Inglaterra</option> 
-                 </select> </p>
+                </select> </p>
+
+            <p>7. Slider. Selección Simple:
+                <input type="range" name="sliderColor" value="128" min="0" max="255" step="1" /> </p>
+
+            <p>8. Number. Selección Simple:
+                <input type="number" name="numberEdad" value="40" min="0" max="120" step="1"  size="30"/>
+                <input type="number" name="numberEdad" step="1" size="30"/> </p>
+            </p>
 
             <p>Enviar: <input type="submit" name='subEnviar' value='Enviar' />
         </form>
